@@ -23,6 +23,28 @@ body{
   font-size: 3.8em; /* Adjust this value to make the icon bigger */
 }
 
+aside ul details details {
+  /* list-style: none; */
+  /* color:#352724; */
+  /* color-scheme: yellow; */
+  padding-left: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+aside ul details details summary{
+  font-size: 0.8em;
+}
+
+aside ul details p{
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  font-size: 0.85em;
+}
+
+aside ul details details ul li{
+  font-size: 0.6em;
+  margin-bottom: 0.7em;
+}
 
 /*Global*/
 h1, 
@@ -57,6 +79,8 @@ main section ul details {
   padding-left: 2.2em;
 }
 
+
+
 details {
   font-size: 1.1em;
 }
@@ -76,7 +100,11 @@ details {
 /*Paragraph*/
 p {
   /* color: black; */
-  margin: 1.1em;
+  /* margin: 1.1em; */
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+  font-size: 1.1em;
+  margin-left: 0.9em;
   line-height: 1.5em;
 }
 
