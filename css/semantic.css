@@ -23,7 +23,7 @@ body{
   font-size: 3.8em; /* Adjust this value to make the icon bigger */
 }
 
-aside ul details details {
+aside details details {
   /* list-style: none; */
   /* color:#352724; */
   /* color-scheme: yellow; */
@@ -31,17 +31,17 @@ aside ul details details {
   margin-bottom: 0.5em;
 }
 
-aside ul details details summary{
+aside details details summary{
   font-size: 0.8em;
 }
 
-aside ul details p{
+aside details p{
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   font-size: 0.85em;
 }
 
-aside ul details details ul li{
+aside details details ul li{
   font-size: 0.6em;
   margin-bottom: 0.7em;
 }
@@ -68,7 +68,7 @@ h2 {
 }
 /*h3 only*/
 h3 {
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 
 main {
@@ -103,7 +103,7 @@ p {
   /* margin: 1.1em; */
   margin-top: 1.0em;
   margin-bottom: 1.0em;
-  font-size: 1.1em;
+  font-size: 0.9em;
   margin-left: 0.9em;
   line-height: 1.5em;
 }
