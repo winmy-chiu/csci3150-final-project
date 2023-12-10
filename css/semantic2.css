@@ -213,12 +213,12 @@ figcaption {
   width: 100vw;
   height: 100vh;
   grid-template-columns: 
-  1fr 1fr;
+  1fr;
     grid-template-areas:
-    "header1 header1"
-    "nav1 nav1"
-    "main1 main1"
-    "footer1 footer1";
+    "header1"
+    "nav1"
+    "main1"
+    "footer1";
 }
 
 
@@ -236,12 +236,12 @@ footer {grid-area: footer1; background: #5A443F;}
   and (max-width: 900px)  {
     .container {
         grid-template-columns:
-        1fr 1fr;
+        1fr;
         grid-template-areas:
-        "header1 header1"
-        "nav1 nav1"
-        "main1 main1"
-        "footer1 footer1";
+        "header1"
+        "nav1"
+        "main1"
+        "footer1";
     }
 }
 /*
