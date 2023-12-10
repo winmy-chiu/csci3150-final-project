@@ -226,15 +226,45 @@ figure {
   align-content: center;
 }
 
-img {
+/* img {
   padding-top: 2.5em;
   width: 520px;
-  /* height: 480px; */
 }
 
 figcaption {
   font-size: 0.8em;
+} */
+
+.center {
+  margin: auto;
 }
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+/* iframe {
+  margin: auto;
+} */
+
+img{
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 2.5em;
+  /* width: 630px; */
+  max-width: 100%; /* Set maximum width to 100% of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+figcaption {
+    /* padding-left: 3.5; */
+    margin-left: 3.5em;
+    font-size: 0.8em;
+    align-content: center;
+}
+
 
 .no-bullets {
   list-style-type: none; /* Remove bullets */
@@ -278,8 +308,8 @@ footer {grid-area: footer1; background: #5A443F;}
 /* Media query for medium/tablet */
 
 @media screen
-  and (min-width: 641px)
-  and (max-width: 900px)  {
+  and (min-width: 851px)
+  and (max-width: 1000px)  {
     .container {
         grid-template-columns:
         1fr 1fr;
@@ -287,8 +317,7 @@ footer {grid-area: footer1; background: #5A443F;}
         "header1 header1"
         "nav1 nav1"
         "main1 main1"
-        "aside1 aside1"
-        "aside2 aside2"
+        "aside1 aside2"
         "footer1 footer1";
     }
 }
@@ -308,7 +337,7 @@ footer {grid-area: footer1; background: #5A443F;}
 /* Media query for small/mobile */
 
 @media screen
-  and (max-width: 640px)  {
+  and (max-width: 850px)  {
     .container {
         grid-template-columns:
         1fr;
