@@ -118,7 +118,7 @@ p {
   line-height: 1.5em;
 }
 
-ul li {
+detail ul li {
   margin: 0;
   padding-left: 0.2em;
   padding-top: 0.4em;
@@ -186,15 +186,6 @@ nav ul li a {
   /* color: #6B544F; */
 }
 
-/* nav ul li a:link { */
-  /* color: rgb(151, 165, 242);  Before hover through */
-  /* color: rgb(49, 49, 79); */
-  /* color: yellowgreen;
-} */
-
-/* nav ul li a:visited {
-  color:rgb(49, 49, 79);
-} */
 
 nav ul li a:hover {
   /* color: rgb(49, 49, 79); */
