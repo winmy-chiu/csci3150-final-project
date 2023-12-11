@@ -39,7 +39,7 @@ aside details details {
 }
 
 aside details details summary{
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 aside details p{
@@ -121,6 +121,7 @@ p {
 ul li {
   margin: 0;
   padding-left: 0.2em;
+  padding-top: 0.4em;
   /* margin-left: 1.0em;
   margin-right: 1.8em; */
   line-height: 1.3em;
