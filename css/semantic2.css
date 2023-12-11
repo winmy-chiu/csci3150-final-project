@@ -102,17 +102,18 @@ p {
   line-height: 1.7em;
 }
 
-ul li {
-  /* margin: 0; */
-  /* padding-left: 0.2em; */
-  /* margin-left: 1.0em;
-  margin-right: 1.8em; */
-  line-height: 1.3em;
+section ul li {
+  /* padding-left: ; */
+  line-height: 2.0em;
 }
 
-li{
-    margin: 5px 0;
+section ul li ul {
+  padding-left: 1.3em;
 }
+
+/* li{
+    margin: 5px 0;
+} */
 
 /* CSS RESET */
 *,
