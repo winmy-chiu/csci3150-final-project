@@ -26,7 +26,7 @@ body{
 
 .some_paddings {
   margin-left: 2.5em;
-  /* margin-top: -0.3em; */
+  margin-top: -0.3em;
   margin-bottom: 1.8em;
   font-size: 0.9em;
 }
@@ -99,19 +99,32 @@ p {
   margin-bottom: 1.0em;
   font-size: 0.9em;
   margin-left: 0.9em;
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 ul li {
-  /* margin: 0; */
-  padding-left: 0.2em;
-  /* margin-left: 1.0em;
-  margin-right: 1.8em; */
   line-height: 1.3em;
 }
 
 li{
     margin: 5px 0;
+}
+
+.centerdot {
+    flex-flow: column nowrap;
+    /* text-align: center; */
+}
+
+aside ul li a {
+    display: block;
+    /* padding: 10px 5px; */
+    padding: 0.5em 1.0em 0.5em 1.0em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FDF4DB;
+    background: #7D645E;
+    margin: 5px;
+    border: 3px #FDF4DB solid;
 }
 
 /* CSS RESET */
@@ -128,6 +141,7 @@ li{
 
 header,
 main,
+aside,
 footer {
   padding: 2.0em;
   /* border: 1px black ridge; */
@@ -146,9 +160,10 @@ footer {
   color: #FDF4DB;
 }
 
-/* ul {
-    padding-left: 2.5em;
-} */
+ul li a{
+    text-decoration: none;
+}
+
 
 nav ul {
   display: flex;
@@ -199,6 +214,12 @@ figcaption {
     align-content: center;
 }
 
+.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -207,18 +228,21 @@ figcaption {
   width: 100vw;
   height: 100vh;
   grid-template-columns: 
-  1fr;
+    4fr 5fr;
     grid-template-areas:
-    "header1"
-    "nav1"
-    "main1"
-    "footer1";
+    "header1 header1"
+    "nav1 nav1"
+    "aside1 main1"
+    "aside2 main1"
+    "footer1 footer1";
 }
 
 
 header {grid-area: header1; background:#5A443F;}
 nav {grid-area: nav1; background:#FDF4DB;}
 main {grid-area: main1; background:#e7e0d3 ; max-height: 100%;}
+#aside1 {grid-area: aside1; background: #ded0af;}
+#aside2 {grid-area: aside2; background: #e4d3ce;}
 footer {grid-area: footer1; background: #5A443F;}
 
 
@@ -232,9 +256,11 @@ footer {grid-area: footer1; background: #5A443F;}
         grid-template-columns:
         1fr;
         grid-template-areas:
-        "header1"
-        "nav1"
+        "header1 "
+        "nav1 "
         "main1"
+        "aside1"
+        "aside2"
         "footer1";
     }
 }
@@ -261,6 +287,8 @@ footer {grid-area: footer1; background: #5A443F;}
         grid-template-areas:
         "header1"
         "main1"
+        "aside1"
+        "aside2"
         "nav1"
         "footer1";
     }
@@ -324,4 +352,3 @@ footer {grid-area: footer1; background: #5A443F;}
 main {
   color: #352724;
 }
-

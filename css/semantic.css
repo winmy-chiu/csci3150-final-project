@@ -72,6 +72,7 @@ h1 {
 /*h2 only*/
 h2 {
     padding-bottom: 0.6em;
+    padding-top: 1.0em;
     font-size: 1.8em;
 }
 /*h3 only*/
@@ -300,7 +301,7 @@ figcaption {
 header {grid-area: header1; background:#5A443F;}
 nav {grid-area: nav1; background:#FDF4DB;}
 main {grid-area: main1; background:#e7e0d3 ; max-height: 100%;}
-#aside1 {grid-area: aside1; background: #eae1ca;}
+#aside1 {grid-area: aside1; background: #ded0af;}
 #aside2 {grid-area: aside2; background: #e4d3ce;}
 footer {grid-area: footer1; background: #5A443F;}
 
@@ -420,8 +421,8 @@ footer {grid-area: footer1; background: #5A443F;}
 } */
 
 .skip-link {
-  background: rgb(49, 49, 79);
-  color: #fff;
+  color: #5A443F;
+  background: #fff;
   font-weight: 700;
   padding: 4px;
   position: absolute;
